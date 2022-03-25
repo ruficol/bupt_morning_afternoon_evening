@@ -5,8 +5,8 @@ name: ncov_dailyup_autorun
 # Controls when the workflow will run
 on:
   schedule:
-   - cron: "8/10 4,10,22 * * *"
-  # Triggers the workflow on push
+   - cron: "8/10 4,10,0 * * *"
+  # Triggers the workflow on pus0
   push:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
